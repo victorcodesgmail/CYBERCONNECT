@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+
+   <header class="header">
+      <div class="container">
+          <h1 class="logo">Learning Platform</h1>
+          <nav class="nav">
+              <ul>
+                  <li><a href="#courses">Courses</a></li>
+                  <li><a href="#documentation">Documentation</a></li>
+              </ul>
+          </nav>
+      </div>
+  </header>
+  
+  <section id="courses" class="section">
+      <div class="container">
+          <h2>Courses</h2>
+          <div class="course-list">
+              <div class="course">
+                  <h3>Course 1</h3>
+                  <p>Description of Course 1</p>
+                  <a href="#">Enroll</a>
+              </div>
+              <div class="course">
+                  <h3>Course 2</h3>
+                  <p>Description of Course 2</p>
+                  <a href="#">Enroll</a>
+              </div>
+              <!-- Add more courses as needed -->
+          </div>
+      </div>
+  </section>
+  
+  <section id="documentation" class="section">
+      <div class="container">
+          <h2>Documentation</h2>
+          <div class="doc-list">
+              <div class="doc">
+                  <h3>Documentation 1</h3>
+                  <p>Description of Documentation 1</p>
+                  <a href="#">Read</a>
+              </div>
+              <div class="doc">
+                  <h3>Documentation 2</h3>
+                  <p>Description of Documentation 2</p>
+                  <a href="#">Read</a>
+              </div>
+              <!-- Add more documentation as needed -->
+          </div>
+      </div>
+  </section>
+  
+
+  <div class="chat-container">
+   <div class="chat-box" id="chat-box"></div>
+   <input type="text" id="message-input" placeholder="Type your message...">
+   <button id="send-button">Send</button>
+</div>
+
+<div class="container">
+   <div class="upload-container">
+       <div class="upload-form">
+           <h2>Upload Files</h2>
+           <div class="upload-input">
+               <input type="file" id="video-file" accept="video/*">
+               <label for="video-file" class="upload-label">
+                   <img src="video-icon.png" alt="Video Icon">
+                   <span>Upload Video</span>
+               </label>
+           </div>
+           <div class="upload-input">
+               <input type="file" id="document-file" accept=".pdf,.doc,.docx">
+               <label for="document-file" class="upload-label">
+                   <img src="document-icon.png" alt="Document Icon">
+                   <span>Upload Document</span>
+               </label>
+           </div>
+           <div class="upload-input">
+               <input type="file" id="audio-file" accept="audio/*">
+               <label for="audio-file" class="upload-label">
+                   <img src="audio-icon.png" alt="Audio Icon">
+                   <span>Upload Audio</span>
+               </label>
+           </div>
+       </div>
+   </div>
+   
+   <div class="files-container">
+       <h2>Uploaded Files</h2>
+       <div class="file-preview">
+           <div class="file">
+               <img src="video-icon.png" alt="Video Icon">
+               <span>example_video.mp4</span>
+           </div>
+           <div class="file">
+               <img src="document-icon.png" alt="Document Icon">
+               <span>example_document.pdf</span>
+           </div>
+           <div class="file">
+               <img src="audio-icon.png" alt="Audio Icon">
+               <span>example_audio.mp3</span>
+           </div>
+       </div>
+   </div>
+</div>
+
+<script src="script.js"></script>
+  <footer class="footer">
+      <div class="container">
+          <p>&copy; 2024 Learning Platform</p>
+      </div>
+  </footer>
+  
+
+
+
+
+</body>
+</html>
